@@ -32,14 +32,14 @@ public class GridViewActivity extends AppCompatActivity {
 
         //Following code copied from justin wolford lecture video
         //Creates a button that adds numbers to the grid.
-        Button addButton = (Button) findViewById(R.id.grid_view_addButton); //assign button
+//        Button addButton = (Button) findViewById(R.id.grid_view_addButton); //assign button
         //set listener for click event
-        addButton.setOnClickListener(new Button.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                gridNumbers.add(gridNumbers.size()); //update size of array
-                ((ArrayAdapter) gridList.getAdapter()).notifyDataSetChanged(); //update grid view
-            }
-        });
+//        addButton.setOnClickListener(new Button.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                gridNumbers.add(gridNumbers.size()); //update size of array
+//                ((ArrayAdapter) gridList.getAdapter()).notifyDataSetChanged(); //update grid view
+//            }
+//        });
     }
 }
