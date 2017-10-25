@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CS496 Android UI</string>
+    <string name="button_hor_list">Horizontal List</string>string>
+    <string name="button_vert_list">Vertical List</string>string>
+    <string name="button_grid_list">Grid List</string>string>
+    <string name="button_rel_list">Relative List</string>string>
+</resources>
