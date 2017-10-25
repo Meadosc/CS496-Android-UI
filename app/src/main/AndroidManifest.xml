@@ -16,7 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HorizontalViewActivity"></activity>
+        <activity android:name=".HorizontalViewActivity" />
+        <activity android:name=".VerticalViewActivity" />
+        <activity android:name=".GridViewActivity" />
+        <activity android:name=".relativeViewActivity"></activity>
     </application>
 
 </manifest>

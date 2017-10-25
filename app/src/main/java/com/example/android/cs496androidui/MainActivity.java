@@ -14,11 +14,41 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Horiztontal button click listener and onClick activity opener
-        Button button = (Button) findViewById(R.id.horizontal_button);
-        button.setOnClickListener(new View.OnClickListener() {
+        Button horButton = (Button) findViewById(R.id.horizontal_button);
+        horButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Open activity
                 Intent intent = new Intent(MainActivity.this, HorizontalViewActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        //vertical button click listener and onClick activity opener
+        Button vertButton = (Button) findViewById(R.id.vertical_button);
+        vertButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Open activity
+                Intent intent = new Intent(MainActivity.this, VerticalViewActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        //grid button click listener and onClick activity opener
+        Button gridButton = (Button) findViewById(R.id.grid_button);
+        gridButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Open activity
+                Intent intent = new Intent(MainActivity.this, GridViewActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        //relative button click listener and onClick activity opener
+        Button relButton = (Button) findViewById(R.id.relative_button);
+        relButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Open activity
+                Intent intent = new Intent(MainActivity.this, relativeViewActivity.class);
                 startActivity(intent);
             }
         });

@@ -4,4 +4,6 @@
     <string name="button_vert_list">Vertical List</string>string>
     <string name="button_grid_list">Grid List</string>string>
     <string name="button_rel_list">Relative List</string>string>
+    <string name="addButton_grid_view">Add A Number</string>string>
+
 </resources>

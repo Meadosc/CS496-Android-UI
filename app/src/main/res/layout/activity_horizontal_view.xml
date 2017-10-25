@@ -6,13 +6,49 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.cs496androidui.HorizontalViewActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Horizontal View"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="70dp" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_margin="5dp"
+            android:textSize="40sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:layout_margin="5dp"
+            android:textSize="40sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:layout_margin="5dp"
+            android:textSize="40sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:layout_margin="5dp"
+            android:textSize="40sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:layout_margin="5dp"
+            android:textSize="40sp" />
+
+
+    </LinearLayout>
 
 
 </android.support.constraint.ConstraintLayout>

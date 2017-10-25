@@ -17,18 +17,21 @@
         android:text="@string/button_hor_list"/>
 
     <Button
+        android:id="@+id/vertical_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
         android:text="@string/button_vert_list"/>
 
     <Button
+        android:id="@+id/grid_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
         android:text="@string/button_grid_list"/>
 
     <Button
+        android:id="@+id/relative_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
